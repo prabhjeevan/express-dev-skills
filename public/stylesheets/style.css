@@ -1,3 +1,8 @@
+*{
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -13,7 +18,23 @@ a {
 }
 
 .delete-form button {
-  color: black;
-  background-color: lightgreen;
-  margin: 10px;
+  color: white;
+  background-color: rgb(163, 33, 33);
+  margin-top: 10px;
+  border-radius: 10px;
+  border: transparent;
+  padding: 8px;
+}
+
+ul{
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+#newskill {
+ border: 1px solid lime;
+ padding: 10px;
+ background-color: lime;
+ color: white; 
+ font-weight: bold;
 }
